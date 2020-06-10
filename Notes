@@ -1,0 +1,5 @@
+#anytime you create a new migration file you need to run db:migrate
+#looks in migrate folder and sees which ones are migrated
+#if you don't have a schema file and you have files in your migration folder
+#run the rollback command to undo something, then fix something, then run it again
+# rake db:migrate means install all the migration files available
